@@ -1,0 +1,66 @@
+/* 全局 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Vant Dialog — 玻璃主题 */
+.van-dialog {
+  background: rgba(14, 18, 26, 0.75) !important;
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.5) !important;
+}
+.van-dialog__header {
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  padding: 28px 28px 0 !important;
+  line-height: 1.4 !important;
+}
+.van-dialog__message {
+  color: rgba(255,255,255,0.5) !important;
+  font-size: 14px !important;
+  padding: 10px 28px 20px !important;
+  line-height: 1.6 !important;
+}
+.van-dialog__footer { padding: 0 20px 20px !important; display: flex; gap: 10px; }
+.van-dialog__footer .van-button {
+  flex: 1; height: 40px; font-size: 14px; font-weight: 600;
+  border-radius: 12px !important; transition: all 0.3s ease;
+}
+.van-dialog__cancel {
+  background: rgba(255,255,255,0.06) !important;
+  color: rgba(255,255,255,0.7) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+.van-dialog__cancel:hover { background: rgba(255,255,255,0.12) !important; }
+.van-dialog__confirm {
+  background: rgba(255,70,70,0.2) !important;
+  color: #ff5c5c !important;
+  border: 1px solid rgba(255,70,70,0.25) !important;
+}
+.van-dialog__confirm:hover { background: rgba(255,70,70,0.3) !important; }
+
+/* Vant Toast — 玻璃居中 */
+.van-toast {
+  background: rgba(15,18,25,0.92) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #fff !important;
+  border-radius: 14px !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  font-size: 15px !important;
+  padding: 12px 28px !important;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.4) !important;
+}
+.van-toast--middle { top: 50% !important; }
+
+/* Vant NavBar 覆盖 */
+.van-nav-bar { background: transparent !important; border: none !important; }
+.van-nav-bar__title { color: #fff !important; }
+.van-nav-bar__text, .van-nav-bar__arrow { color: rgba(255,255,255,0.6) !important; }
+
+/* 动画 */
+.streaming-cursor { display: inline-block; animation: blink 1s infinite; }
+@keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0; } }
