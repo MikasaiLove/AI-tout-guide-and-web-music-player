@@ -6,3 +6,5 @@ server/data/
 .DS_Store
 .claude/.test-result.json
 .claude/.quality-result.json
+node环境/
+travel-h5/public/videos/

@@ -1,7 +1,7 @@
 <template>
   <div class="login-page">
     <!-- 全屏背景视频 -->
-    <video class="bg-video" src="/videos/bg.mp4" autoplay loop muted playsinline></video>
+    <video class="bg-video" src="/videos/bg.mp4" autoplay loop muted playsinline poster="/images/bg.jpg"></video>
 
     <!-- 暗色遮罩 -->
     <div class="bg-overlay"></div>
