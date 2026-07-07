@@ -57,8 +57,8 @@ QQ 音乐加密歌曲
 
 | 工具 | 用途 | 下载 |
 |------|------|------|
-| **QKKDecrypt UI** | 将 QQ 音乐加密格式 (.mgg/.mflac) 解密为通用 MP3/FLAC | [GitHub](https://github.com/) |
-| **MusicTag** | 搜索歌词/封面/歌手信息，内嵌 LRC 歌词 + 图片到 MP3 ID3 标签 | [官网](https://www.musictag.org/) |
+| **QKKDecrypt UI** | 将 QQ 音乐加密格式 (.mgg/.mflac) 解密为通用 MP3/FLAC | [GitHub](https://github.com/Gan1quan/qqkwkg-trimusicdecrypt) |
+| **MusicTag** | 搜索歌词/封面/歌手信息，内嵌 LRC 歌词 + 图片到 MP3 ID3 标签 | [下载地址](https://www.cnblogs.com/vinlxc/p/11347744.html) |
 
 > ⚠️ 音乐仅供个人学习交流使用，请尊重版权。
 
