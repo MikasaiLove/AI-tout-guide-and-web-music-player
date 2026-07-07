@@ -55,10 +55,10 @@ QQ 音乐加密歌曲
 
 ### 工具说明
 
-| 工具 | 路径 | 用途 |
+| 工具 | 用途 | 下载 |
 |------|------|------|
-| **QKKDecrypt UI** | `D:\QQ音乐转码\QKKDecrypt UI\` | 将 QQ 音乐加密格式解密为通用 MP3/FLAC |
-| **MusicTag** | `D:\QQ音乐转码\MusicTag\` | 搜索歌词/封面/歌手信息，写入 MP3 ID3 标签 |
+| **QKKDecrypt UI** | 将 QQ 音乐加密格式 (.mgg/.mflac) 解密为通用 MP3/FLAC | [GitHub](https://github.com/) |
+| **MusicTag** | 搜索歌词/封面/歌手信息，内嵌 LRC 歌词 + 图片到 MP3 ID3 标签 | [官网](https://www.musictag.org/) |
 
 > ⚠️ 音乐仅供个人学习交流使用，请尊重版权。
 
